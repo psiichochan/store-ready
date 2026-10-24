@@ -3,10 +3,10 @@
 A free, read-only scanner that checks a React Native or Expo app against current Google Play and App Store submission rules. It never modifies your project.
 
 ```
-npx store-ready ./my-app          # Markdown report
-npx store-ready ./my-app --json   # machine-readable
+npx github:psiichochan/store-ready ./my-app          # Markdown report
+npx github:psiichochan/store-ready ./my-app --json   # machine-readable
 ```
-(Before it's published to npm: `node bin/store-ready.js ./my-app`.) Exits with code 1 when something would block a store submission, so it can run in CI.
+Requires Node 20+ and has no dependencies. Exits with code 1 when something would block a store submission, so it can run in CI.
 
 See [examples/sample-report.md](examples/sample-report.md) for the output on a React Native 0.74 project.
 
