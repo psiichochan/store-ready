@@ -1,0 +1,10 @@
+{
+  "name": "store-ready",
+  "version": "0.1.0",
+  "description": "Read-only Google Play / App Store readiness scanner for React Native and Expo apps",
+  "type": "module",
+  "bin": { "store-ready": "bin/store-ready.js" },
+  "scripts": { "test": "node --test test/" },
+  "engines": { "node": ">=20" },
+  "license": "MIT"
+}
